@@ -8,7 +8,7 @@
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 700px;
 }
 
@@ -27,6 +27,10 @@ button {
     border: none;
 }
 
+button:hover {
+    transform: scale(1.2);
+}
+
 /* --------------------- */
 *{
     letter-spacing: .5px;
@@ -42,8 +46,9 @@ header {
 
 header .description {
     padding-top: 320px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     filter: grayscale(30%);
+    margin: 0 40px;
 }
 
 header .img-container {
@@ -55,3 +60,11 @@ header .img-container {
     background-color: red;
     color: white;
 }
+
+@media screen and (min 575px) {
+    header .img-container {
+        width: 50%;
+    }   
+}
+
+
