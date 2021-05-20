@@ -189,3 +189,12 @@ main p {
     padding-top: 10px;
     padding-bottom: 40px;
 }
+
+.explore button {
+    margin-bottom: 50px;
+}
+
+.explore p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
