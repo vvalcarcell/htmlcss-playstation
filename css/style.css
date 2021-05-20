@@ -104,6 +104,14 @@ main p {
     color: white;
 }
 
+.items .img-container {
+    border-bottom: 4px #fff solid;
+}
+
+.items .img-container:hover {
+    border-bottom: 4px blue solid;
+}
+
 
 
 
