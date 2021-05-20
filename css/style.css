@@ -1,0 +1,57 @@
+/* ---- UTILITY CLASSES ---- */
+.container-bg {
+    width: 100%;
+}
+
+.img-container > img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+/* --------------------- */
+*{
+    letter-spacing: .5px;
+}
+
+header {
+    background-image: url('../img/jumbo-bg.png');
+    /* background-size: 270%; */
+    background-size: cover;
+    background-position-x: center;
+    color: white;
+}
+
+header .description {
+    padding-top: 320px;
+    padding-bottom: 100px;
+    filter: grayscale(30%);
+}
+
+header .img-container {
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+.b-red {
+    background-color: red;
+    color: white;
+}
