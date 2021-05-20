@@ -9,14 +9,12 @@
 
 h1 {
     font-size: 45px;
-    font-weight: 700px;
 }
 
 p {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
-    font-weight: 700px;
 }
 
 button {
@@ -79,6 +77,31 @@ main {
     border: 2px #fff solid;
     overflow: hidden;
     border-radius: 20px;
+}
+
+.presentation {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.presentation > * {
+    text-align: center;
+}
+
+.presentation h6 {
+   margin-bottom: -5px;
+   font-size: .8rem; 
+   color: blue;
+}
+
+main p {
+    color: grey;
+    font-weight: 600;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
 }
 
 
