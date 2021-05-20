@@ -136,5 +136,29 @@ main p {
     .items .img-container {
         height: 245px;
     }
+}
 
+.takes2 {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position-x: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.takes2 .img-container {
+    padding-bottom: 50px;
+}
+
+.takes2 .img-container > img {
+    width: 60%;
+}
+
+.orange {
+    background-color: orangered;
+    color: white;
+}
+
+.takes2 p {
+    color: white;
 }
