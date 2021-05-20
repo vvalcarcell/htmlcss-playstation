@@ -121,14 +121,20 @@ main p {
     text-align: center;
 }
 
-.items .img-container > img {
-    width: 60%;
-}
-
 .items p {
     margin-top: 10px;
+    display: none;
 }
 
+@media only screen and (min-width: 767px) {
+    .items p {
+        display: block;
+    }
+    .items .img-container > img {
+        width: 60%;
+    }
+    .items .img-container {
+        height: 245px;
+    }
 
-
-
+}
