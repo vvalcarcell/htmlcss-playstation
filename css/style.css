@@ -11,6 +11,21 @@ h1 {
     font-size: 45px;
 }
 
+h3 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+h4 {
+    padding-bottom: 15px;
+}
+
+h6 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
 p {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -155,10 +170,20 @@ main p {
 }
 
 .orange {
-    background-color: orangered;
+    background-color: #cd3d0f;
     color: white;
 }
 
 .takes2 p {
     color: white;
+}
+
+.news {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.news .img-container {
+    border-radius: 15px;
+    overflow: hidden;
 }
