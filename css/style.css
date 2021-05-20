@@ -71,6 +71,7 @@ main {
 
 .box-mini-games:hover {
     border: 3px #1abc9c solid;
+    cursor: pointer;
 }
 
 .box-mini-games .img-container {
@@ -80,7 +81,7 @@ main {
 }
 
 .presentation {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -105,11 +106,27 @@ main p {
 }
 
 .items .img-container {
-    border-bottom: 4px #fff solid;
+    border-bottom: 3px #fff solid;
+    opacity: .7;
 }
 
 .items .img-container:hover {
-    border-bottom: 4px blue solid;
+    border-bottom: 3px blue solid;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.items {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.items .img-container > img {
+    width: 60%;
+}
+
+.items p {
+    margin-top: 10px;
 }
 
 
