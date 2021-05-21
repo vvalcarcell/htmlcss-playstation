@@ -341,10 +341,22 @@ footer li {
     width: 80px;
 }
 
+
+/* ---- disallineamento(le proprietà di flex e vertical align non rispondono ---- */
 .topbar ul {
     margin-bottom: -5px;
     margin-left: -10px;
 }
+
+section.left {
+    margin-bottom: -12px;
+}
+
+.topbar button {
+    margin-top: -10px;
+}
+
+/* -------------------------------------- */
 
 .topbar li {
     margin-right: 20px;
@@ -355,10 +367,6 @@ footer li {
     color: rgba(0, 0, 0, 0.904);
     font-size: 16px;
     font-weight: 500;
-}
-
-.topbar button {
-    margin-top: -5px;
 }
 
 .topbar i.fa-chevron-down {
