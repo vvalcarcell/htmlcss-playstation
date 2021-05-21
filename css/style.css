@@ -68,8 +68,12 @@ button:hover {
 }
 
 .b-special {
-    background-color: lightgray;
+    background-color: rgb(224, 223, 223);
     color: #2d64e6;
+}
+
+ul {
+    list-style: none;
 }
 
 
@@ -80,7 +84,6 @@ button:hover {
 
 header {
     background-image: url('../img/jumbo-bg.png');
-    /* background-size: 270%; */
     background-size: cover;
     background-position-x: center;
     color: white;
@@ -177,6 +180,7 @@ main p {
     color: white;
     padding-top: 100px;
     padding-bottom: 50px;
+    filter: grayscale(20%);
 }
 
 .takes2 .img-container {
@@ -216,11 +220,11 @@ main p {
 }
 
 .p-plus {
-    background-color: grey;
+    background-color: rgb(190, 190, 190);
 }
 
 .p-plus p {
-    color: black;
+    color: rgba(0, 0, 0, 0.63);
 }
 
 .p-plus-box .img-container > img {
@@ -252,6 +256,69 @@ main p {
     width: 70%;
 }
 
+.media {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .media .img-container {
+    padding-bottom: 70px;
+}
+
+footer {
+    background-color: #00439c;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.img-container.logo-footer {
+    width: 15%;
+}
+
+footer svg, footer svg path {
+    fill: white;
+}
+
+footer i {
+    margin-right: 8px;
+    vertical-align: middle;
+    font-size: 23px;
+}
+
+footer .text {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer li {
+    line-height: 35px;
+}
+
+.img-container.logo-footer-sony {
+    width: 30%;
+}
+
+.footer-item:first-child {
+    margin-top: -15px;
     padding-bottom: 50px;
 }
+
+.footer-item:last-child {
+    padding-top: 50px;
+}
+
+
