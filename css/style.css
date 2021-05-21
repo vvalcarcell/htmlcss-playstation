@@ -67,6 +67,11 @@ button:hover {
     color: #08203b;
 }
 
+.b-black {
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+}
+
 .b-special {
     background-color: rgb(224, 223, 223);
     color: #2d64e6;
@@ -320,5 +325,65 @@ footer li {
 .footer-item:last-child {
     padding-top: 50px;
 }
+
+/* ----- TOPBAR ----- */
+
+.topbar .black {
+    background-color: black;
+    height: 50px;
+}
+
+.black .img-container {
+    width: 130px;
+}
+
+.topbar img {
+    width: 80px;
+}
+
+.topbar ul {
+    margin-bottom: -5px;
+    margin-left: -10px;
+}
+
+.topbar li {
+    margin-right: 20px;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.904);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.topbar button {
+    margin-top: -5px;
+}
+
+.topbar i.fa-chevron-down {
+    font-size: 10px;
+    color: grey;
+    margin-left: 5px;
+}
+
+.topbar i.fa-search {
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.801);
+    margin-left: 20px;
+}
+
+.topbar i.fa-bars {
+    font-size: 25px;
+    color: grey;
+    border: 1px solid lightgray;
+    padding: 9px 18px;
+    border-radius: 5px;
+}
+
+
+
+
+
 
 
