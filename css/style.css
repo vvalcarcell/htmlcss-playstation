@@ -381,6 +381,13 @@ footer li {
     border-radius: 5px;
 }
 
+.nav-menù {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1001;
+}
+
 
 
 
