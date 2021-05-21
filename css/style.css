@@ -11,6 +11,11 @@ h1 {
     font-size: 45px;
 }
 
+h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 h3 {
     padding-top: 40px;
     padding-bottom: 15px;
@@ -245,4 +250,8 @@ main p {
 
 .img-container.logo > img {
     width: 70%;
+}
+
+.media .img-container {
+    padding-bottom: 50px;
 }
