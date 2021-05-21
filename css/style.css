@@ -57,6 +57,11 @@ button:hover {
     background-color: #2d64e6;
 }
 
+.b-white {
+    background-color: white;
+    color: #08203b;
+}
+
 .b-special {
     background-color: lightgray;
     color: #2d64e6;
@@ -218,9 +223,26 @@ main p {
 }
 
 @media only screen and (max-width: 991px) {
-    .p-plus-box {
+    .p-plus-box, .p-now-box {
         padding-top: 50px;
         padding-bottom: 50px;
     }
 }
 
+.p-store .img-container {
+   padding-bottom: 50px; 
+}
+
+.p-now {
+    background-color: #08203b;
+}
+
+.p-now p {
+    color: white;
+    padding-top: 50px;
+    font-weight: normal;
+}
+
+.img-container.logo > img {
+    width: 70%;
+}
