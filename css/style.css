@@ -57,6 +57,11 @@ button:hover {
     background-color: #2d64e6;
 }
 
+.b-special {
+    background-color: lightgray;
+    color: #2d64e6;
+}
+
 
 /* --------------------- */
 *{
@@ -199,3 +204,23 @@ main p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.p-plus {
+    background-color: grey;
+}
+
+.p-plus p {
+    color: black;
+}
+
+.p-plus-box .img-container > img {
+    width: 60%;
+}
+
+@media only screen and (max-width: 991px) {
+    .p-plus-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
