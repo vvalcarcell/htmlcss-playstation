@@ -47,7 +47,7 @@ button {
 
 button:hover {
     transform: scale(1.2);
-    filter: brightness(150%);
+    opacity: .9;
 }
 
 .b-red {
