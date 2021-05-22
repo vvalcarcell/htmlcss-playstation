@@ -181,13 +181,39 @@ header {
     background-size: cover;
     background-position-x: center;
     color: white;
+    height: 800px;
 }
 
 header .description {
-    padding-top: 320px;
-    padding-bottom: 80px;
+    position: relative;
+    margin-top: 420px;
     filter: grayscale(30%);
+    animation: ups 2s linear forwards;
 }
+
+@keyframes ups {
+    0% {
+        bottom: 0;
+        height: 50px;
+        overflow: hidden;
+    }
+    25% {
+        height: 130px;
+    }
+    60% {
+        height: 320px;
+    }
+    90% {
+        height: auto;
+    }
+    100% {
+        bottom: 100px;
+    }  
+}
+
+
+
+
 
 header .img-container {
     width: 60%;
