@@ -339,6 +339,10 @@ footer li {
     padding-top: 50px;
 }
 
+footer p:last-child > a {
+    text-decoration: underline;
+}
+
 /* ----- TOPBAR ----- */
 
 .black {
