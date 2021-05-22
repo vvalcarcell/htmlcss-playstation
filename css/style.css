@@ -361,19 +361,10 @@ footer {
 
 .img-container.logo-footer {
     width: 15%;
-    position: relative;
 }
 
 footer svg, footer svg path {
     fill: white;
-}
-
-.symbol-r-footer {
-    display: inline-block;
-    font-size: 13px;
-    position: absolute;
-    bottom: 25px;
-    right: -40px;
 }
 
 footer i {
