@@ -80,10 +80,16 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
     text-decoration: underline;
+    color: inherit;
+}
+
+.img-container:hover {
+    cursor: pointer;
 }
 
 /* --------------------- */
@@ -106,6 +112,7 @@ a:hover {
 
 .topbar {
     background-color: #fff;
+    color: rgba(0, 0, 0, 0.904);
     padding: 0 12px;
 }
 
@@ -135,7 +142,6 @@ section.left {
 }
 
 .topbar a {
-    color: rgba(0, 0, 0, 0.904);
     font-size: 16px;
     font-weight: 500;
 }
@@ -288,6 +294,11 @@ main p {
     overflow: hidden;
 }
 
+.news .img-container:hover {
+    transform: scale(.9);
+    filter: drop-shadow(10px 10px 10px black);
+}
+
 .news h6 {
     padding-top: 10px;
     padding-bottom: 40px;
@@ -300,6 +311,10 @@ main p {
 .explore p {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.explore-box:hover img {
+    transform: scale(.8);
 }
 
 .symbol-r {
@@ -329,6 +344,10 @@ main p {
     }
 }
 
+.p-store .img-container:hover {
+    transform: scale(.9);
+}
+
 .p-now {
     background-color: #08203b;
 }
@@ -352,6 +371,11 @@ main p {
     padding-bottom: 70px;
 }
 
+.media .img-container:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
 footer {
     background-color: #00439c;
     color: white;
@@ -361,7 +385,7 @@ footer {
 
 .img-container.logo-footer {
     width: 15%;
-}
+} 
 
 footer svg, footer svg path {
     fill: white;
@@ -377,10 +401,6 @@ footer .text {
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
-    color: white;
-}
-
-.footer-item a {
     color: white;
 }
 
