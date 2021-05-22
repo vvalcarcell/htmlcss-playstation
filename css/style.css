@@ -390,6 +390,10 @@ section.left {
     font-weight: 500;
 }
 
+.topbar a:hover {
+    text-decoration: underline;
+}
+
 .topbar i.fa-chevron-down {
     font-size: 10px;
     color: grey;
@@ -402,12 +406,20 @@ section.left {
     margin-left: 20px;
 }
 
-.topbar i.fa-bars {
+.hamburger-menu i.fa-bars {
     font-size: 25px;
     color: grey;
     border: 1px solid lightgray;
     padding: 9px 18px;
     border-radius: 5px;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+.hamburger-menu:active {
+    transform: scale(1.2);
 }
 
 
