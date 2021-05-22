@@ -78,11 +78,97 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 /* --------------------- */
+
+
 *{
     letter-spacing: .4px;
 }
+
+/* ----- TOPBAR ----- */
+
+.black {
+    background-color: black;
+    height: 50px;
+}
+
+.black .img-container {
+    width: 130px;
+}
+
+.topbar {
+    background-color: #fff;
+    padding: 0 12px;
+}
+
+.topbar img {
+    width: 80px;
+}
+
+/* --- disallineamento --- */
+
+.topbar ul {
+    margin-bottom: -5px;
+    margin-left: -10px;
+}
+
+section.left {
+    margin-bottom: -12px;
+}
+
+.topbar button {
+    margin-top: -10px;
+}
+
+/* ----------------------- */
+
+.topbar li {
+    margin-right: 20px;
+}
+
+.topbar a {
+    color: rgba(0, 0, 0, 0.904);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.topbar i.fa-chevron-down {
+    font-size: 10px;
+    color: grey;
+    margin-left: 5px;
+}
+
+.topbar i.fa-search {
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.801);
+    margin-left: 20px;
+}
+
+.hamburger-menu i.fa-bars {
+    font-size: 25px;
+    color: grey;
+    border: 1px solid lightgray;
+    padding: 9px 18px;
+    border-radius: 5px;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+.hamburger-menu:active {
+    transform: scale(1.2);
+}
+
+/*  -----------------------  */
 
 header {
     background-image: url('../img/jumbo-bg.png');
@@ -102,13 +188,16 @@ header .img-container {
     padding-bottom: 20px;
 }
 
+/* DO NOT TOUCH .description's padd-bottom!
+   (it adjusts background-images's size)
+*/
 main {
     padding-top: 30px;
 }
 
 .box-mini-games {
-    border-radius: 20px;
     border: 2px #fff solid;
+    border-radius: 20px;
     margin-bottom: 30px;
 }
 
@@ -119,8 +208,8 @@ main {
 
 .box-mini-games .img-container {
     border: 2px #fff solid;
-    overflow: hidden;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .presentation {
@@ -150,9 +239,8 @@ main p {
     cursor: pointer;
 }
 
-.items {
+.items, .takes2 .img-container,.takes2, .p-store .img-container {
     padding-bottom: 50px;
-    text-align: center;
 }
 
 .items p {
@@ -179,12 +267,7 @@ main p {
     background-position-x: center;
     color: white;
     padding-top: 100px;
-    padding-bottom: 50px;
     filter: grayscale(20%);
-}
-
-.takes2 .img-container {
-    padding-bottom: 50px;
 }
 
 .takes2 .img-container > img {
@@ -235,7 +318,7 @@ main p {
     color: rgba(0, 0, 0, 0.63);
 }
 
-.p-plus-box .img-container > img {
+.p-plus-box .img-container {
     width: 60%;
 }
 
@@ -244,10 +327,6 @@ main p {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-}
-
-.p-store .img-container {
-   padding-bottom: 50px; 
 }
 
 .p-now {
@@ -260,7 +339,7 @@ main p {
     font-weight: normal;
 }
 
-.img-container.logo > img {
+.p-now .img-container.logo {
     width: 70%;
 }
 
@@ -310,14 +389,7 @@ footer .text {
     color: white;
 }
 
-footer a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-}
-
-footer a:hover {
-    text-decoration: underline;
+.footer-item a {
     color: white;
 }
 
@@ -342,85 +414,7 @@ footer p:last-child > a {
     text-decoration: underline;
 }
 
-/* ----- TOPBAR ----- */
 
-.black {
-    background-color: black;
-    height: 50px;
-}
-
-.black .img-container {
-    width: 130px;
-}
-
-.topbar {
-    background-color: #fff;
-    padding: 0 12px;
-}
-
-.topbar img {
-    width: 80px;
-}
-
-/* ---- disallineamento ---- */
-
-.topbar ul {
-    margin-bottom: -5px;
-    margin-left: -10px;
-}
-
-section.left {
-    margin-bottom: -12px;
-}
-
-.topbar button {
-    margin-top: -10px;
-}
-
-/* -------------------------------------- */
-
-.topbar li {
-    margin-right: 20px;
-}
-
-.topbar a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.904);
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.topbar a:hover {
-    text-decoration: underline;
-}
-
-.topbar i.fa-chevron-down {
-    font-size: 10px;
-    color: grey;
-    margin-left: 5px;
-}
-
-.topbar i.fa-search {
-    font-size: 23px;
-    color: rgba(0, 0, 0, 0.801);
-    margin-left: 20px;
-}
-
-.hamburger-menu i.fa-bars {
-    font-size: 25px;
-    color: grey;
-    border: 1px solid lightgray;
-    padding: 9px 18px;
-    border-radius: 5px;
-}
-
-.hamburger-menu:hover {
-    cursor: pointer;
-}
-
-.hamburger-menu:active {
-    transform: scale(1.2);
-}
 
 
 
