@@ -131,10 +131,6 @@ main {
     padding-bottom: 30px;
 }
 
-.presentation > * {
-    text-align: center;
-}
-
 .presentation h6 {
    margin-bottom: -5px;
    font-size: .8rem; 
@@ -328,7 +324,7 @@ footer li {
 
 /* ----- TOPBAR ----- */
 
-.topbar .black {
+.black {
     background-color: black;
     height: 50px;
 }
@@ -337,12 +333,16 @@ footer li {
     width: 130px;
 }
 
+.topbar {
+    background-color: #fff;
+}
+
 .topbar img {
     width: 80px;
 }
 
+/* ---- disallineamento ---- */
 
-/* ---- disallineamento(le proprietà di flex e vertical align non rispondono ---- */
 .topbar ul {
     margin-bottom: -5px;
     margin-left: -10px;
@@ -389,12 +389,6 @@ section.left {
     border-radius: 5px;
 }
 
-.nav-menù {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 1001;
-}
 
 
 
