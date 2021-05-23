@@ -181,7 +181,6 @@ header {
     background-size: cover;
     background-position-x: center;
     color: rgba(255, 255, 255, 0.781);
-    /* height: 800px; */
     height: 700px;
     animation: back-change 14s infinite;
 }
