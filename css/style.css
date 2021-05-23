@@ -182,34 +182,85 @@ header {
     background-position-x: center;
     color: white;
     height: 800px;
+    animation: back-change 12s infinite;
 }
 
-header .description {
-    position: relative;
-    margin-top: 420px;
+@keyframes back-change {
+    48% {background-image: url('../img/jumbo-bg.png');}
+    50% {background-image: url('../img/Knockout-City.png');}
+    99% {background-image: url('../img/Knockout-City.png');}   
+}
+
+
+.description {
+    /* position: relative; */
+    /* margin-top: 420px; */
     filter: grayscale(30%);
-    animation: ups 2s linear forwards;
+    /*animation: ups 2s forwards;*/
+    margin-top: 320px;
 }
 
-@keyframes ups {
-    0% {
-        bottom: 0;
-        height: 50px;
-        overflow: hidden;
-    }
-    25% {
-        height: 130px;
-    }
-    60% {
-        height: 320px;
-    }
-    90% {
-        height: auto;
-    }
-    100% {
-        bottom: 100px;
-    }  
+/* ----- RETURNAL----- */
+
+#returnal {
+    animation: upone 12s infinite;
+    position: relative;
 }
+
+/* ---- FUNZIONA VOGLIO PIANGERE ---- */
+@keyframes upone {
+    0%  {height: 0; overflow: hidden;}
+    2%  {top: 100px;}
+    20% {top: 0; height: auto;}
+    48% {top: 0; height: auto;}
+    50% {height: 0; overflow: hidden;}
+    100% {height: 0; overflow: hidden;}
+}
+
+.one {
+    animation: overone 12s normal infinite forwards;
+}
+
+@keyframes overone {
+    0%  {height: 50px; overflow: hidden; }
+    5% {height: 130px;}
+    10% {height: 260px;}
+    15% {height: auto;}
+    100% {height: auto;}    
+}
+
+
+/*  ------ KNOCK ------ */
+
+#knock {
+    animation: uptwo 12s infinite;
+    position: relative;
+    color: red;
+}
+
+@keyframes uptwo {
+    0%  {height: 0; overflow: hidden;}
+    50% {height: 0; overflow: hidden;}
+    53% {height: auto; top: 100px; }
+    70% {height: auto; top: 0; }
+    /* 100% {height: auto; top: 0; } */
+    98% {height: auto; top: 0;}
+    100% {height: 0; overflow: hidden;}
+}
+
+.two {
+    animation: overtwo 12s normal infinite forwards;
+}
+
+@keyframes overtwo {
+    0%   {height: auto;}
+    50%  {height: 50px; overflow: hidden; }
+    55%  {height: 130px;}
+    60%  {height: 260px;}
+    75%  {height: auto;}
+    100% {height: auto;}    
+}
+
 
 
 
@@ -220,9 +271,6 @@ header .img-container {
     padding-bottom: 20px;
 }
 
-/* DO NOT TOUCH .description's padd-bottom!
-   (it adjusts background-images's size)
-*/
 main {
     padding-top: 30px;
 }
