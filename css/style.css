@@ -192,10 +192,6 @@ header {
 }
 
 
-.description {
-    margin-top: 320px;
-}
-
 /* ----- RETURNAL----- */
 
 #returnal {
@@ -213,9 +209,10 @@ header {
     100% {height: 0; overflow: hidden;}
 }
 
-#returnal .one {
+.description.one {
     animation: overone 12s normal infinite forwards;
     filter: grayscale(30%);
+    margin-top: 320px;
 }
 
 @keyframes overone {
@@ -239,18 +236,19 @@ header {
     0%   {height: 0; overflow: hidden;}
     50%  {height: 0; overflow: hidden;}
     52%  {top: 100px;}
-    70%  {top: 0; height: auto;}
-    98%  {top: 0; height: auto;}
+    70%  {top: -20px; height: auto;}
+    98%  {top: -20px; height: auto;}
     100% {height: 0; overflow: hidden;}
 }
 
-#knock .two {
-    animation: overtwo 12s normal infinite forwards;
+.description.two {
+    animation: overtwo 12s normal infinite;
+    margin-top: 300px;
 }
 
 @keyframes overtwo {
     0%   {height: auto;}
-    50%  {height: 50px; overflow: hidden; }
+    50%  {height: 50px; overflow: hidden;}
     55%  {height: 130px;}
     60%  {height: 260px;}
     65%  {height: auto;}
