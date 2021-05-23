@@ -180,8 +180,9 @@ header {
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position-x: center;
-    color: rgba(255, 255, 255, 0.781);
     height: 700px;
+    color: rgba(255, 255, 255, 0.781);
+    filter: grayscale(30%);
     animation: back-change 14s infinite;
 }
 
@@ -211,7 +212,6 @@ header {
 
 .description-1 {
     animation: overone 14s normal infinite forwards;
-    filter: grayscale(30%);
     margin-top: 220px;
 }
 
@@ -263,7 +263,7 @@ header {
 
 @media screen and (max-width: 991px) {
     #knock {
-        color: rgba(0, 0, 0, 0.952);
+        color: rgba(0, 0, 0, 0.884);
     }  
 }
 
