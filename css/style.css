@@ -199,7 +199,7 @@ header {
     position: relative;
 }
 
-/* ---- FUNZIONA VOGLIO PIANGERE ---- */
+/* FUNZIONA VOGLIO PIANGERE */
 @keyframes upone {
     0%   {height: 0; overflow: hidden;}
     2%   {top: 100px;}
@@ -243,21 +243,35 @@ header {
 
 .description-2 {
     animation: overtwo 14s normal infinite;
-    margin-top: 300px;
+    margin-top: 290px;
 }
 
+.description-2 p {
+    font-weight: bold;
+} 
+
 @keyframes overtwo {
-    50%  {height: 50px; overflow: hidden;}
-    55%  {height: 130px;}
-    60%  {height: 318px;}
-    65%  {height: auto;}
+    50%  {height: 5%; overflow: hidden;}
+    55%  {height: 10%;}
+    60%  {height: 30%;}
+    65%  {height: 50%;}
+    70%  {height: auto;}
     100% {height: auto;}    
 }
 
-header .img-container {
+@media screen and (max-width: 1199px) {
+    #knock {
+        color: rgba(0, 0, 0, 0.925);
+    }  
+}
+
+#returnal .img-container, #knock .img-container {
     width: 60%;
     padding-bottom: 20px;
 }
+
+/*  ----------------------  */
+
 
 main {
     padding-top: 30px;
