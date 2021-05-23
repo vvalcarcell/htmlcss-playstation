@@ -182,7 +182,7 @@ header {
     background-position-x: center;
     color: rgba(255, 255, 255, 0.781);
     height: 800px;
-    animation: back-change 12s infinite;
+    animation: back-change 14s infinite;
 }
 
 @keyframes back-change {
@@ -195,7 +195,7 @@ header {
 /* ----- RETURNAL----- */
 
 #returnal {
-    animation: upone 12s infinite;
+    animation: upone 14s infinite;
     position: relative;
 }
 
@@ -210,7 +210,7 @@ header {
 }
 
 .description.one {
-    animation: overone 12s normal infinite forwards;
+    animation: overone 14s normal infinite forwards;
     filter: grayscale(30%);
     margin-top: 320px;
 }
@@ -227,7 +227,7 @@ header {
 /*  ------ KNOCK ------ */
 
 #knock {
-    animation: uptwo 12s infinite;
+    animation: uptwo 14s infinite;
     position: relative;
     color: #442034;
 }
@@ -242,7 +242,7 @@ header {
 }
 
 .description.two {
-    animation: overtwo 12s normal infinite;
+    animation: overtwo 14s normal infinite;
     margin-top: 300px;
 }
 
