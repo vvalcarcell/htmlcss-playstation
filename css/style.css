@@ -180,7 +180,7 @@ header {
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position-x: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.781);
     height: 800px;
     animation: back-change 12s infinite;
 }
@@ -193,10 +193,6 @@ header {
 
 
 .description {
-    /* position: relative; */
-    /* margin-top: 420px; */
-    filter: grayscale(30%);
-    /*animation: ups 2s forwards;*/
     margin-top: 320px;
 }
 
@@ -209,23 +205,24 @@ header {
 
 /* ---- FUNZIONA VOGLIO PIANGERE ---- */
 @keyframes upone {
-    0%  {height: 0; overflow: hidden;}
-    2%  {top: 100px;}
-    20% {top: 0; height: auto;}
-    48% {top: 0; height: auto;}
-    50% {height: 0; overflow: hidden;}
+    0%   {height: 0; overflow: hidden;}
+    2%   {top: 100px;}
+    20%  {top: 0; height: auto;}
+    48%  {top: 0; height: auto;}
+    50%  {height: 0; overflow: hidden;}
     100% {height: 0; overflow: hidden;}
 }
 
-.one {
+#returnal .one {
     animation: overone 12s normal infinite forwards;
+    filter: grayscale(30%);
 }
 
 @keyframes overone {
-    0%  {height: 50px; overflow: hidden; }
-    5% {height: 130px;}
-    10% {height: 260px;}
-    15% {height: auto;}
+    0%   {height: 50px; overflow: hidden; }
+    5%   {height: 130px;}
+    10%  {height: 260px;}
+    15%  {height: auto;}
     100% {height: auto;}    
 }
 
@@ -235,20 +232,19 @@ header {
 #knock {
     animation: uptwo 12s infinite;
     position: relative;
-    color: red;
+    color: #442034;
 }
 
 @keyframes uptwo {
-    0%  {height: 0; overflow: hidden;}
-    50% {height: 0; overflow: hidden;}
-    53% {height: auto; top: 100px; }
-    70% {height: auto; top: 0; }
-    /* 100% {height: auto; top: 0; } */
-    98% {height: auto; top: 0;}
+    0%   {height: 0; overflow: hidden;}
+    50%  {height: 0; overflow: hidden;}
+    52%  {top: 100px;}
+    70%  {top: 0; height: auto;}
+    98%  {top: 0; height: auto;}
     100% {height: 0; overflow: hidden;}
 }
 
-.two {
+#knock .two {
     animation: overtwo 12s normal infinite forwards;
 }
 
@@ -257,14 +253,9 @@ header {
     50%  {height: 50px; overflow: hidden; }
     55%  {height: 130px;}
     60%  {height: 260px;}
-    75%  {height: auto;}
+    65%  {height: auto;}
     100% {height: auto;}    
 }
-
-
-
-
-
 
 header .img-container {
     width: 60%;
