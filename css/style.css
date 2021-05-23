@@ -181,7 +181,8 @@ header {
     background-size: cover;
     background-position-x: center;
     color: rgba(255, 255, 255, 0.781);
-    height: 800px;
+    /* height: 800px; */
+    height: 700px;
     animation: back-change 14s infinite;
 }
 
@@ -212,7 +213,7 @@ header {
 .description-1 {
     animation: overone 14s normal infinite forwards;
     filter: grayscale(30%);
-    margin-top: 320px;
+    margin-top: 220px;
 }
 
 @keyframes overone {
@@ -243,7 +244,7 @@ header {
 
 .description-2 {
     animation: overtwo 14s normal infinite;
-    margin-top: 290px;
+    margin-top: 160px;
 }
 
 .description-2 p {
@@ -259,9 +260,9 @@ header {
     100% {height: auto;}    
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 991px) {
     #knock {
-        color: rgba(0, 0, 0, 0.925);
+        color: rgba(0, 0, 0, 0.952);
     }  
 }
 
