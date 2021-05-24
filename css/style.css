@@ -146,10 +146,14 @@ section.left {
     font-weight: 500;
 }
 
-.topbar i.fa-chevron-down {
-    font-size: 10px;
-    color: grey;
+.topbar a::after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
     margin-left: 5px;
+    color: grey;
+    font-size: 10px;
 }
 
 .topbar i.fa-search {
@@ -279,6 +283,11 @@ main {
     padding-top: 30px;
 }
 
+main p {
+    color: grey;
+    font-weight: 600;
+}
+
 .box-mini-games {
     border: 2px #fff solid;
     border-radius: 20px;
@@ -305,11 +314,6 @@ main {
    margin-bottom: -5px;
    font-size: .8rem; 
    color: #2d64e6;
-}
-
-main p {
-    color: grey;
-    font-weight: 600;
 }
 
 .items .img-container {
@@ -354,7 +358,7 @@ main p {
     filter: grayscale(20%);
 }
 
-.takes2 .img-container > img {
+.takes2 .img-container {
     width: 60%;
 }
 
@@ -380,6 +384,7 @@ main p {
 .news h6 {
     padding-top: 10px;
     padding-bottom: 40px;
+    font-size: 16px;
 }
 
 .explore button {
