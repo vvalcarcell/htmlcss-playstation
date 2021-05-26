@@ -1,6 +1,6 @@
 document.getElementById('supply').innerHTML = '#Supply by JavaScript!';
 
-alert("Hack Attempt by JavaScript!!!");
+// alert("Hack Attempt by JavaScript!!!");
 
 console.log('Keep Pandas Safe! Be Careful About What You Say!');
 

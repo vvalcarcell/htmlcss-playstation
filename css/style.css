@@ -241,14 +241,14 @@ header {
     0%   {height: 0; overflow: hidden;}
     50%  {height: 0; overflow: hidden;}
     52%  {top: 100px;}
-    70%  {top: -20px; height: auto;}
-    98%  {top: -20px; height: auto;}
-    100% {height: 0; overflow: hidden;}
+    70%  {top: 0; height: auto;}
+    98%  {top: 0; height: auto;}
+    100% {height: 0; overflow: visible;}
 }
 
 .description-2 {
     animation: overtwo 14s normal infinite;
-    margin-top: 160px;
+    margin-top: 140px;
 }
 
 .description-2 p {
@@ -262,7 +262,7 @@ header {
     65%  {height: 60%;}
     70%  {height: 75%;}
     75%  {height: 100%;}
-    100% {height: 100%;}
+    100% {height: 100%; overflow: visible;}
 }
 
 @media screen and (max-width: 991px) {
