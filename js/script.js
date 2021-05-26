@@ -1,6 +1,6 @@
 document.getElementById('supply').innerHTML = '#Supply by JavaScript!';
 
-alert("Hack Attempt by JavaScript!!!");
+// alert("Hack Attempt by JavaScript!!!");
 
 console.log('Keep Pandas Safe! Be Careful About What You Say!');
 
@@ -17,4 +17,12 @@ var z = 4;
 var pluto = x + z;
 
 document.getElementById('pluto').innerHTML = pluto;
+
+function thief3() {
+    document.getElementById("stolen-3").innerHTML = "JavaScript Stole All of Them!";
+}
+
+function thief2() {
+    document.getElementById("stolen-2").innerHTML = "JavaScript Stole All of Them!";
+}
 
