@@ -26,3 +26,18 @@ function thief2() {
     document.getElementById("stolen-2").innerHTML = "JavaScript Stole All of Them!";
 }
 
+function thief() {
+    document.getElementById("stolen").innerHTML = "JavaScript Stole All of Them!";
+}
+
+function change() {
+    document.getElementById('ps-4').src = './img/js.png'; document.getElementById('yellow').style.backgroundColor = '#FFD700';
+}
+
+function change2() {
+    document.getElementById('ps-vr').src = './img/javascript-logo.png'; document.getElementById('yellow2').style.backgroundColor = '#FFD700';
+}
+
+function change3() {
+    document.getElementById('acc').src = './img/js.png'; document.getElementById('yellow3').style.backgroundColor = '#FFD700';
+}
